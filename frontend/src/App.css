@@ -1,0 +1,80 @@
+.app {
+  width: 600px;
+  min-height: 400px;
+  background-color: #95a5a6;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 10px 10px #fff;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.app h1 {
+  color: #fff;
+}
+form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+form input,
+button {
+  padding: 7px;
+  border: 0;
+  outline: 0;
+}
+
+form label {
+  background-color: red;
+  padding: 5px;
+  border-radius: 7px 0 0 7px;
+}
+
+form input {
+  width: 50%;
+  font-size: 0.9rem;
+}
+
+form button {
+  background-color: #e67e22;
+  border-radius: 0 7px 7px 0;
+}
+
+form button:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.todolist {
+  margin: auto;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #66ccd3;
+  border: 1px solid red;
+}
+
+.item {
+  margin: 8px auto;
+  padding: 4px 0 4px 10px;
+  width: 50%;
+  background-color: #ecf0f1;
+  border: 1px solid white;
+  text-align: start;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item span {
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+  padding: 1px;
+}

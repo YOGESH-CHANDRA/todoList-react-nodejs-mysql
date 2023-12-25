@@ -1,0 +1,7 @@
+1. create 2 separate folder for frontend and backend respectively.
+2. In frontend folder react app and backend folder initialize npm for backend 
+3. in frontend react app created simple to do list app with delete functionity.
+4. in backend install express, nodemon, mysql from npm.
+5. after the complete of todo list app as per asssignment we connect frontend with backend using fetch api.
+6. All the todolist data operation performed in existing database todolist table todos.
+7. Now app running smoothly as per assignment
